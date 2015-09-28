@@ -85,3 +85,403 @@ scorePageBreak = { }
         \midi { }
         }
     }
+
+\book {
+    \header { instrument = \partBName }
+    \score {
+        \partB
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partCName }
+    \score {
+        \partC
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partDName }
+    \score {
+        \partD
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partEName }
+    \score {
+        \partE
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partFName }
+    \score {
+        \partF
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partGName }
+    \score {
+        \partG
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partHName }
+    \score {
+        \partH
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partIName }
+    \score {
+        \partI
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partJName }
+    \score {
+        \partJ
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partKName }
+    \score {
+        \partK
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partLName }
+    \score {
+        \partL
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partMName }
+    \score {
+        \partM
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partNName }
+    \score {
+        \partN
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partOName }
+    \score {
+        \partO
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partPName }
+    \score {
+        \partP
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partQName }
+    \score {
+        \partQ
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partRName }
+    \score {
+        \partR
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partSName }
+    \score {
+        \partS
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partTName }
+    \score {
+        \partT
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partUName }
+    \score {
+        \partU
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partVName }
+    \score {
+        \partV
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partWName }
+    \score {
+        \partW
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partXName }
+    \score {
+        \partX
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partYName }
+    \score {
+        \partY
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
+
+\book {
+    \header { instrument = \partZName }
+    \score {
+        \partZ
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            \context {
+                \Staff \remove "Instrument_name_engraver"
+                }
+            }
+        \midi { }
+        }
+    }
