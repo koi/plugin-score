@@ -76,7 +76,7 @@ scorePageBreak = { }
         \partA
         \layout {
             pagenumber = yes
-            \set Score.markFormatter = #format-mark-circle-barnumbers
+            \set Score.markFormatter = #format-mark-box-alphabet
             \numericTimeSignature
             \context {
                 \Staff \remove "Instrument_name_engraver"
