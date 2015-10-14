@@ -57,6 +57,17 @@ scorePageBreak = { }
         }
     }
 
+\layout {
+    pagenumber = yes
+    \set Score.markFormatter = #format-mark-box-alphabet
+    \override MultiMeasureRest #'expand-limit = #2
+    \compressFullBarRests
+    \numericTimeSignature
+    \context {
+        \Staff \remove "Instrument_name_engraver"
+        }
+    }
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%                              Include                                %%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -74,14 +85,6 @@ scorePageBreak = { }
     \header { instrument = \partAName }
     \score {
         \partA
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -90,14 +93,6 @@ scorePageBreak = { }
     \header { instrument = \partBName }
     \score {
         \partB
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -106,14 +101,6 @@ scorePageBreak = { }
     \header { instrument = \partCName }
     \score {
         \partC
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -122,14 +109,6 @@ scorePageBreak = { }
     \header { instrument = \partDName }
     \score {
         \partD
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -138,14 +117,6 @@ scorePageBreak = { }
     \header { instrument = \partEName }
     \score {
         \partE
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -154,14 +125,6 @@ scorePageBreak = { }
     \header { instrument = \partFName }
     \score {
         \partF
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -170,14 +133,6 @@ scorePageBreak = { }
     \header { instrument = \partGName }
     \score {
         \partG
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -186,14 +141,6 @@ scorePageBreak = { }
     \header { instrument = \partHName }
     \score {
         \partH
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -202,14 +149,6 @@ scorePageBreak = { }
     \header { instrument = \partIName }
     \score {
         \partI
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -218,14 +157,6 @@ scorePageBreak = { }
     \header { instrument = \partJName }
     \score {
         \partJ
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -234,14 +165,6 @@ scorePageBreak = { }
     \header { instrument = \partKName }
     \score {
         \partK
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -250,14 +173,6 @@ scorePageBreak = { }
     \header { instrument = \partLName }
     \score {
         \partL
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -266,14 +181,6 @@ scorePageBreak = { }
     \header { instrument = \partMName }
     \score {
         \partM
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -282,14 +189,6 @@ scorePageBreak = { }
     \header { instrument = \partNName }
     \score {
         \partN
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -298,14 +197,6 @@ scorePageBreak = { }
     \header { instrument = \partOName }
     \score {
         \partO
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -314,14 +205,6 @@ scorePageBreak = { }
     \header { instrument = \partPName }
     \score {
         \partP
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -330,14 +213,6 @@ scorePageBreak = { }
     \header { instrument = \partQName }
     \score {
         \partQ
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -346,14 +221,6 @@ scorePageBreak = { }
     \header { instrument = \partRName }
     \score {
         \partR
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -362,14 +229,6 @@ scorePageBreak = { }
     \header { instrument = \partSName }
     \score {
         \partS
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -378,30 +237,6 @@ scorePageBreak = { }
     \header { instrument = \partTName }
     \score {
         \partT
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
-        \midi { }
-        }
-    }
-
-\book {
-    \header { instrument = \partUName }
-    \score {
-        \partU
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -410,14 +245,6 @@ scorePageBreak = { }
     \header { instrument = \partVName }
     \score {
         \partV
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -426,14 +253,6 @@ scorePageBreak = { }
     \header { instrument = \partWName }
     \score {
         \partW
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -442,14 +261,6 @@ scorePageBreak = { }
     \header { instrument = \partXName }
     \score {
         \partX
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -458,14 +269,6 @@ scorePageBreak = { }
     \header { instrument = \partYName }
     \score {
         \partY
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
@@ -474,14 +277,6 @@ scorePageBreak = { }
     \header { instrument = \partZName }
     \score {
         \partZ
-        \layout {
-            pagenumber = yes
-            \set Score.markFormatter = #format-mark-box-alphabet
-            \numericTimeSignature
-            \context {
-                \Staff \remove "Instrument_name_engraver"
-                }
-            }
         \midi { }
         }
     }
