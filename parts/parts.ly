@@ -87,6 +87,7 @@ scorePageBreak = { }
     \header { instrument = \partAName }
     \score {
         \partA
+        \layout { }
         \midi { }
         }
     }
@@ -95,6 +96,7 @@ scorePageBreak = { }
     \header { instrument = \partBName }
     \score {
         \partB
+        \layout { }
         \midi { }
         }
     }
@@ -103,6 +105,7 @@ scorePageBreak = { }
     \header { instrument = \partCName }
     \score {
         \partC
+        \layout { }
         \midi { }
         }
     }
@@ -111,6 +114,7 @@ scorePageBreak = { }
     \header { instrument = \partDName }
     \score {
         \partD
+        \layout { }
         \midi { }
         }
     }
@@ -119,6 +123,7 @@ scorePageBreak = { }
     \header { instrument = \partEName }
     \score {
         \partE
+        \layout { }
         \midi { }
         }
     }
@@ -127,6 +132,7 @@ scorePageBreak = { }
     \header { instrument = \partFName }
     \score {
         \partF
+        \layout { }
         \midi { }
         }
     }
@@ -135,6 +141,7 @@ scorePageBreak = { }
     \header { instrument = \partGName }
     \score {
         \partG
+        \layout { }
         \midi { }
         }
     }
@@ -143,6 +150,7 @@ scorePageBreak = { }
     \header { instrument = \partHName }
     \score {
         \partH
+        \layout { }
         \midi { }
         }
     }
@@ -151,6 +159,7 @@ scorePageBreak = { }
     \header { instrument = \partIName }
     \score {
         \partI
+        \layout { }
         \midi { }
         }
     }
@@ -159,6 +168,7 @@ scorePageBreak = { }
     \header { instrument = \partJName }
     \score {
         \partJ
+        \layout { }
         \midi { }
         }
     }
@@ -167,6 +177,7 @@ scorePageBreak = { }
     \header { instrument = \partKName }
     \score {
         \partK
+        \layout { }
         \midi { }
         }
     }
@@ -175,6 +186,7 @@ scorePageBreak = { }
     \header { instrument = \partLName }
     \score {
         \partL
+        \layout { }
         \midi { }
         }
     }
@@ -183,6 +195,7 @@ scorePageBreak = { }
     \header { instrument = \partMName }
     \score {
         \partM
+        \layout { }
         \midi { }
         }
     }
@@ -191,6 +204,7 @@ scorePageBreak = { }
     \header { instrument = \partNName }
     \score {
         \partN
+        \layout { }
         \midi { }
         }
     }
@@ -199,6 +213,7 @@ scorePageBreak = { }
     \header { instrument = \partOName }
     \score {
         \partO
+        \layout { }
         \midi { }
         }
     }
@@ -207,6 +222,7 @@ scorePageBreak = { }
     \header { instrument = \partPName }
     \score {
         \partP
+        \layout { }
         \midi { }
         }
     }
@@ -215,6 +231,7 @@ scorePageBreak = { }
     \header { instrument = \partQName }
     \score {
         \partQ
+        \layout { }
         \midi { }
         }
     }
@@ -223,6 +240,7 @@ scorePageBreak = { }
     \header { instrument = \partRName }
     \score {
         \partR
+        \layout { }
         \midi { }
         }
     }
@@ -231,6 +249,7 @@ scorePageBreak = { }
     \header { instrument = \partSName }
     \score {
         \partS
+        \layout { }
         \midi { }
         }
     }
@@ -239,6 +258,7 @@ scorePageBreak = { }
     \header { instrument = \partTName }
     \score {
         \partT
+        \layout { }
         \midi { }
         }
     }
@@ -247,6 +267,7 @@ scorePageBreak = { }
     \header { instrument = \partVName }
     \score {
         \partV
+        \layout { }
         \midi { }
         }
     }
@@ -255,6 +276,7 @@ scorePageBreak = { }
     \header { instrument = \partWName }
     \score {
         \partW
+        \layout { }
         \midi { }
         }
     }
@@ -263,6 +285,7 @@ scorePageBreak = { }
     \header { instrument = \partXName }
     \score {
         \partX
+        \layout { }
         \midi { }
         }
     }
@@ -271,6 +294,7 @@ scorePageBreak = { }
     \header { instrument = \partYName }
     \score {
         \partY
+        \layout { }
         \midi { }
         }
     }
@@ -279,6 +303,7 @@ scorePageBreak = { }
     \header { instrument = \partZName }
     \score {
         \partZ
+        \layout { }
         \midi { }
         }
     }
