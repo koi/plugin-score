@@ -15,7 +15,7 @@
 % this program.  If not, see <http://www.gnu.org/licenses/>.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%                        Mult-Part Score                              %%%%%
+%%%%%                          Mult-Part Score                            %%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \version "2.16.2"
@@ -64,6 +64,8 @@ scorePageBreak = { \pageBreak }
 \include "english.ly"
 \include "lyInclude/lyInclude/definitions.ily"
 \include "lyInclude/lyInclude/jazzChords.ily"
+\include "lyInclude/lyInclude/copyright.ily"
+\include "../header.ily"
 \include "../layout.ily"
 
 
