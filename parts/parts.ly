@@ -27,10 +27,6 @@
 #(set-global-staff-size 20)
 #(ly:set-option 'relative-includes #t)
 
-partLineBreak = { \break }
-partPageBreak = { \pageBreak }
-scorePageBreak = { }
-
 \paper {
     #(set-paper-size "letter")
     ragged-last-bottom = ##t
@@ -77,6 +73,11 @@ scorePageBreak = { }
 \include "../lyInclude/lyInclude/jazzChords.ily"
 \include "../lyInclude/lyInclude/copyright.ily"
 \include "../../header.ily"
+
+partLineBreak = { \break }
+partPageBreak = { \pageBreak }
+scorePageBreak = { }
+
 \include "../../layout.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
