@@ -266,6 +266,15 @@ scorePageBreak = { }
     }
 
 \book {
+    \header { instrument = \partUName }
+    \score {
+        \globalTranspose \partU
+        \layout { }
+        \midi { }
+        }
+    }
+
+\book {
     \header { instrument = \partVName }
     \score {
         \globalTranspose \partV
