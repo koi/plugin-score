@@ -61,6 +61,7 @@
 \include "lyInclude/lyInclude/definitions.ily"
 \include "lyInclude/lyInclude/jazzChords.ily"
 \include "lyInclude/lyInclude/copyright.ily"
+\include "../settings.ily"
 \include "../header.ily"
 
 partLineBreak = { }
@@ -69,13 +70,12 @@ scorePageBreak = { \pageBreak }
 
 \include "../layout.ily"
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%                               Score                                 %%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \score {
-    \scoreStaves
+    \globalTranspose \scoreStaves
     \layout {
         pagenumber = yes
         \set Score.markFormatter = #format-mark-box-alphabet

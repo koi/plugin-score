@@ -72,6 +72,7 @@
 \include "../lyInclude/lyInclude/definitions.ily"
 \include "../lyInclude/lyInclude/jazzChords.ily"
 \include "../lyInclude/lyInclude/copyright.ily"
+\include "../settings.ily"
 \include "../../header.ily"
 
 partLineBreak = { \break }
@@ -87,7 +88,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partAName }
     \score {
-        \partA
+        \globalTranspose \partA
         \layout { }
         \midi { }
         }
@@ -96,7 +97,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partBName }
     \score {
-        \partB
+        \globalTranspose \partB
         \layout { }
         \midi { }
         }
@@ -105,7 +106,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partCName }
     \score {
-        \partC
+        \globalTranspose \partC
         \layout { }
         \midi { }
         }
@@ -114,7 +115,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partDName }
     \score {
-        \partD
+        \globalTranspose \partD
         \layout { }
         \midi { }
         }
@@ -132,7 +133,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partFName }
     \score {
-        \partF
+        \globalTranspose \partF
         \layout { }
         \midi { }
         }
@@ -141,7 +142,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partGName }
     \score {
-        \partG
+        \globalTranspose \partG
         \layout { }
         \midi { }
         }
@@ -150,7 +151,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partHName }
     \score {
-        \partH
+        \globalTranspose \partH
         \layout { }
         \midi { }
         }
@@ -159,7 +160,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partIName }
     \score {
-        \partI
+        \globalTranspose \partI
         \layout { }
         \midi { }
         }
@@ -168,7 +169,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partJName }
     \score {
-        \partJ
+        \globalTranspose \partJ
         \layout { }
         \midi { }
         }
@@ -177,7 +178,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partKName }
     \score {
-        \partK
+        \globalTranspose \partK
         \layout { }
         \midi { }
         }
@@ -186,7 +187,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partLName }
     \score {
-        \partL
+        \globalTranspose \partL
         \layout { }
         \midi { }
         }
@@ -195,7 +196,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partMName }
     \score {
-        \partM
+        \globalTranspose \partM
         \layout { }
         \midi { }
         }
@@ -204,7 +205,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partNName }
     \score {
-        \partN
+        \globalTranspose \partN
         \layout { }
         \midi { }
         }
@@ -213,7 +214,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partOName }
     \score {
-        \partO
+        \globalTranspose \partO
         \layout { }
         \midi { }
         }
@@ -222,7 +223,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partPName }
     \score {
-        \partP
+        \globalTranspose \partP
         \layout { }
         \midi { }
         }
@@ -231,7 +232,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partQName }
     \score {
-        \partQ
+        \globalTranspose \partQ
         \layout { }
         \midi { }
         }
@@ -240,7 +241,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partRName }
     \score {
-        \partR
+        \globalTranspose \partR
         \layout { }
         \midi { }
         }
@@ -249,7 +250,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partSName }
     \score {
-        \partS
+        \globalTranspose \partS
         \layout { }
         \midi { }
         }
@@ -258,7 +259,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partTName }
     \score {
-        \partT
+        \globalTranspose \partT
         \layout { }
         \midi { }
         }
@@ -267,7 +268,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partVName }
     \score {
-        \partV
+        \globalTranspose \partV
         \layout { }
         \midi { }
         }
@@ -276,7 +277,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partWName }
     \score {
-        \partW
+        \globalTranspose \partW
         \layout { }
         \midi { }
         }
@@ -285,7 +286,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partXName }
     \score {
-        \partX
+        \globalTranspose \partX
         \layout { }
         \midi { }
         }
@@ -294,7 +295,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partYName }
     \score {
-        \partY
+        \globalTranspose \partY
         \layout { }
         \midi { }
         }
@@ -303,7 +304,7 @@ scorePageBreak = { }
 \book {
     \header { instrument = \partZName }
     \score {
-        \partZ
+        \globalTranspose \partZ
         \layout { }
         \midi { }
         }
