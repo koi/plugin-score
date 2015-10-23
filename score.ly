@@ -75,7 +75,9 @@ scorePageBreak = { \pageBreak }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \score {
-    \globalTranspose \scoreStaves
+    \scoreStyle { 
+        \globalTranspose \scoreStaves
+        }
     \layout {
         pagenumber = yes
         \set Score.markFormatter = #format-mark-box-alphabet
