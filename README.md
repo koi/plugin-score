@@ -30,9 +30,9 @@ Lilypond 2.16.2
             * `cd template`
             * `git submodule update --init`
 
-3. Assuming you've already designed your layout in `layout.ily` and all your
-   music accordingly in `music.ily`, you can now `lilypond score.ly` or
-   `lilypond parts.ly`.
+3. Assuming you've already designed your layout in `layout.ily` and input all
+   your project info as instructed in the [music repository][musicrepo], you can
+   now `lilypond score.ly` or `lilypond parts.ly`.
 
 ## Contribution
 Suggestions and contributions are always welcome and appreciated.
@@ -47,9 +47,16 @@ lyTemplates-multipart is licensed under the GPL3 license.
 
 ## Changelog
 
-### Version 1.0.0
+### Version 0.2.0
+2015.10.26
 
-2015.10.04
+* add `settings.ily` file for globalTranspose() and scoreStyle()
+* update lyInclude submodule to v1.1.0
+* add back missing "partU"
+
+### Version 0.1.0
+
+2015.10.20
 
 * Complete re-working of layout and file structure.
     * Separate staff layout into it's own section and put it in it's own
@@ -58,4 +65,10 @@ lyTemplates-multipart is licensed under the GPL3 license.
       plug into using git submodules.
 * Character/format/code cleanup from legacy code
 * Apply GPL3 license
+* add lyInclude library as submodule
 * upgrade to LilyPond 2.16.2
+* add copyright boilerplate
+* `layout.ily` optimizations
+* pre-fill 26 empty parts for comment/removal: easier then adding from 0
+* switch to letters for rehearsal marks: easier for maintainer, performers
+  don't care
