@@ -74,14 +74,21 @@ scorePageBreak = { \pageBreak }
 %%%%%                               Score                                 %%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\score {
-    \scoreStyle { 
-        \globalTranspose \scoreStaves
+\book {
+    \score {
+        \scoreStyle { 
+            \globalTranspose \scoreStaves
+            }
+        \layout {
+            pagenumber = yes
+            \set Score.markFormatter = #format-mark-box-alphabet
+            \numericTimeSignature
+            }
         }
-    \layout {
-        pagenumber = yes
-        \set Score.markFormatter = #format-mark-box-alphabet
-        \numericTimeSignature
+    \score {
+        \removeWithTag #'transposed {
+            \globalTranspose \scoreStaves
+            }
+        \midi { }
         }
-    \midi { }
     }

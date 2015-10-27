@@ -92,6 +92,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partA
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partA
+            }
         \midi { }
         }
     }
@@ -103,6 +108,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partB
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partB
+            }
         \midi { }
         }
     }
@@ -114,6 +124,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partC
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partC
+            }
         \midi { }
         }
     }
@@ -125,6 +140,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partD
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partD
+            }
         \midi { }
         }
     }
@@ -136,6 +156,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partE
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partE
+            }
         \midi { }
         }
     }
@@ -147,6 +172,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partF
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partF
+            }
         \midi { }
         }
     }
@@ -158,6 +188,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partG
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partG
+            }
         \midi { }
         }
     }
@@ -169,6 +204,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partH
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partH
+            }
         \midi { }
         }
     }
@@ -180,6 +220,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partI
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partI
+            }
         \midi { }
         }
     }
@@ -191,6 +236,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partJ
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partJ
+            }
         \midi { }
         }
     }
@@ -202,6 +252,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partK
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partK
+            }
         \midi { }
         }
     }
@@ -213,6 +268,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partL
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partL
+            }
         \midi { }
         }
     }
@@ -224,6 +284,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partM
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partM
+            }
         \midi { }
         }
     }
@@ -235,6 +300,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partN
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partN
+            }
         \midi { }
         }
     }
@@ -246,6 +316,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partO
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partO
+            }
         \midi { }
         }
     }
@@ -257,6 +332,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partP
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partP
+            }
         \midi { }
         }
     }
@@ -268,6 +348,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partQ
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partQ
+            }
         \midi { }
         }
     }
@@ -279,6 +364,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partR
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partR
+            }
         \midi { }
         }
     }
@@ -290,6 +380,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partS
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partS
+            }
         \midi { }
         }
     }
@@ -301,6 +396,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partT
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partT
+            }
         \midi { }
         }
     }
@@ -312,6 +412,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partU
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partU
+            }
         \midi { }
         }
     }
@@ -323,6 +428,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partV
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partV
+            }
         \midi { }
         }
     }
@@ -334,6 +444,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partW
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partW
+            }
         \midi { }
         }
     }
@@ -345,6 +460,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partX
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partX
+            }
         \midi { }
         }
     }
@@ -356,6 +476,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partY
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partY
+            }
         \midi { }
         }
     }
@@ -367,6 +492,11 @@ scorePageBreak = { }
             \removeWithTag #'concert \partZ
             }
         \layout { }
+        }
+    \score {
+        \globalTranspose {
+            \removeWithTag #'transposed \partZ
+            }
         \midi { }
         }
     }
