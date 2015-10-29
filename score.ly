@@ -87,7 +87,9 @@ scorePageBreak = { \pageBreak }
         }
     \score {
         \removeWithTag #'transposed {
-            \globalTranspose \scoreStaves
+            \unfoldRepeats {
+                \globalTranspose \scoreStaves
+                }
             }
         \midi { }
         }

@@ -95,8 +95,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partA
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partA
+                }
             }
         \midi { }
         }
@@ -112,8 +114,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partB
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partB
+                }
             }
         \midi { }
         }
@@ -129,8 +133,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partC
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partC
+                }
             }
         \midi { }
         }
@@ -146,8 +152,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partD
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partD
+                }
             }
         \midi { }
         }
@@ -163,8 +171,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partE
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partE
+                }
             }
         \midi { }
         }
@@ -180,8 +190,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partF
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partF
+                }
             }
         \midi { }
         }
@@ -197,8 +209,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partG
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partG
+                }
             }
         \midi { }
         }
@@ -214,8 +228,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partH
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partH
+                }
             }
         \midi { }
         }
@@ -231,8 +247,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partI
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partI
+                }
             }
         \midi { }
         }
@@ -248,8 +266,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partJ
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partJ
+                }
             }
         \midi { }
         }
@@ -265,8 +285,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partK
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partK
+                }
             }
         \midi { }
         }
@@ -282,8 +304,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partL
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partL
+                }
             }
         \midi { }
         }
@@ -299,8 +323,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partM
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partM
+                }
             }
         \midi { }
         }
@@ -316,8 +342,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partN
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partN
+                }
             }
         \midi { }
         }
@@ -333,8 +361,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partO
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partO
+                }
             }
         \midi { }
         }
@@ -350,8 +380,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partP
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partP
+                }
             }
         \midi { }
         }
@@ -367,8 +399,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partQ
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partQ
+                }
             }
         \midi { }
         }
@@ -384,8 +418,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partR
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partR
+                }
             }
         \midi { }
         }
@@ -401,8 +437,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partS
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partS
+                }
             }
         \midi { }
         }
@@ -418,8 +456,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partT
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partT
+                }
             }
         \midi { }
         }
@@ -435,8 +475,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partU
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partU
+                }
             }
         \midi { }
         }
@@ -452,8 +494,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partV
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partV
+                }
             }
         \midi { }
         }
@@ -469,8 +513,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partW
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partW
+                }
             }
         \midi { }
         }
@@ -486,8 +532,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partX
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partX
+                }
             }
         \midi { }
         }
@@ -503,8 +551,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partY
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partY
+                }
             }
         \midi { }
         }
@@ -520,8 +570,10 @@ scorePageBreak = { }
         \layout { }
         }
     \score {
-        \globalTranspose {
-            \removeWithTag #'transposed \partZ
+        \unfoldRepeats {
+            \globalTranspose {
+                \removeWithTag #'transposed \partZ
+                }
             }
         \midi { }
         }
