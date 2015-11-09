@@ -76,7 +76,7 @@ scorePageBreak = { \pageBreak }
 
 \book {
     \score {
-        \scoreStyle { 
+        \setScoreStyle { 
             \globalTranspose \scoreStaves
             }
         \layout {
