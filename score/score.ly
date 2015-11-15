@@ -58,17 +58,17 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \include "english.ly"
-\include "lyInclude/lyInclude/definitions.ily"
-\include "lyInclude/lyInclude/jazzChords.ily"
-\include "lyInclude/lyInclude/copyright.ily"
-\include "../settings.ily"
-\include "../header.ily"
+\include "../lyInclude/lyInclude/definitions.ily"
+\include "../lyInclude/lyInclude/jazzChords.ily"
+\include "../lyInclude/lyInclude/copyright.ily"
+\include "../../settings.ily"
+\include "../../header.ily"
 
 partLineBreak = { }
 partPageBreak = { }
 scorePageBreak = { \pageBreak }
 
-\include "../layout.ily"
+\include "../../layout.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%                               Score                                 %%%%%
